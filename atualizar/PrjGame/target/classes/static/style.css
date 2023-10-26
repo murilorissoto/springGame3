@@ -1,0 +1,75 @@
+h1{
+    font-family: 'SKA_75_marul_CE_extended', sans-serif;
+    font-family: 'SKA_75_marul_CE', sans-serif;
+    color: #fff;
+    font-size:xx-large;
+}
+h2{
+    font-family: 'SKA_75_marul_CE_extended', sans-serif;
+    font-family: 'SKA_75_marul_CE', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+   
+}
+
+h3{
+    font-family: 'SKA_75_marul_CE_extended', sans-serif;
+    font-family: 'SKA_75_marul_CE', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+p{
+    font-family: 'SKA_75_marul_CE_extended', sans-serif;
+    font-family: 'SKA_75_marul_CE', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: xx-large; 
+}
+resultadoPesquisa{
+	font-family: 'SKA_75_marul_CE_extended', sans-serif;
+    font-family: 'SKA_75_marul_CE', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: xx-large; 
+}
+
+.container {
+   float: left;
+   width: 50%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+   background-size: cover;
+}
+
+label{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+.button {
+    display: inline-block;
+    padding: px px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+  }
+  
+  .button:hover {background-color: #666}
+  
+  .button:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

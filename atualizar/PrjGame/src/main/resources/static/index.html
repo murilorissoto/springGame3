@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro e Pesquisa de Jogos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/ska-75-marul-ce" rel="stylesheet">
+</head>
+
+<body background="https://files.meiobit.com/wp-content/uploads/2020/04/20200407jogos-em-promocao.jpg">
+   
+    <h1>Cadastro e Pesquisa de Jogos</h1>
+    <div id="cadastro"> 
+        <div class="row">
+            <div class="container">
+                <div class="box">
+        <h2>Cadastro de Jogo</h2>
+        <form id="cadastroForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="plataform">Plataforma:</label>
+            <input type="text" id="plataform" name="plataform" required><br>
+            <button class="button" type="submit">Cadastrar</button>
+            <button class="button" type="button" onclick="atualizarJogo()">🔁Atualizar</button>
+            <button class="button" type="button" onclick="deleteJogo()">Delete</button>
+        </form>
+                </div>
+            </div>
+            
+    <div id="pesquisa">
+        <div class="container">
+            <div class="box">
+        <h2>Pesquisa de Jogo</h2>
+        <form id="pesquisaForm">
+            <label for="searchId">ID do Jogo:</label>
+            <input type="text" id="searchId" name="searchId"><br>
+            <button class="button" type="button" onclick="pesquisarJogo()">Pesquisar</button>
+        </form>
+        <div id="resultadoPesquisa"></div>
+    </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
